@@ -5,6 +5,7 @@
     <meta http-equiv="content-type" content="text/html" charset="utf-8">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <title>株式会社DIVE</title>
   </head>
   <body>
@@ -22,7 +23,7 @@
           </ul>
         </nav>
       </header>
-      <img src="./images/TOP.png" class="image_area">
+      <img src="./images/contact.png" class="image_area">
       <div class="wrapper clearfix">
         <aside class="side_menu">
           <nav>
@@ -34,12 +35,39 @@
           </nav>
         </aside>
         <article class="content">
-          <h2>新着情報</h2>
-          <div class="news">
-            <ul>
-              <li>webサイトをリニューアルしました！</li>
-            </ul>
-          </div>
+          <table class="contact">
+            <tr>
+              <th>お名前</th>
+              <td>
+                <input class="c_name" type="text">
+              </td>
+            </tr>
+            <tr>
+              <th>メールアドレス</th>
+              <td>
+                <input class="c_mail" type="email">
+              </td>
+            </tr>
+            <tr>
+              <th>性別</th>
+              <td>
+                <input class="c_man" type="checkbox" name="gender" value="ok">男
+                <input class="c_femail" type="checkbox" name="gender" value="bad">女
+              </td>
+            </tr>
+            <tr>
+              <th>お問い合わせ内容</th>
+              <td>
+                <input class="c_content" type="text">
+              </td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>
+                <input class="c_send" type="submit" value="送信">
+              </td>
+            </tr>
+          </table>
         </article>
       </div>
       <footer class="footer">

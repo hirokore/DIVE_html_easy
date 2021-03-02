@@ -1,0 +1,48 @@
+.contact {
+}
+
+.contact tr {
+  height: 7rem;
+}
+
+.contact th {
+  text-align: right;
+  width: 150px;
+}
+
+.contact .c_name {
+  width: 480px;
+}
+
+.contact .c_mail {
+  width: 480px;
+}
+
+.contact .c_men {
+}
+
+.contact .c_femail {
+  margin-left: 0px;
+}
+
+.contact input {
+  margin-left: 20px;
+}
+
+.contact .c_content {
+  height: 5rem;
+  width: 480px;
+}
+
+.contact .c_send {
+  margin-left: 180px;
+  font-size: 28px;
+  color: white;
+  background-color: green;
+  height: 5rem;
+  width: 80px;
+}
+
+.contact .c_send:hover {
+  opacity: 0.8;
+}
